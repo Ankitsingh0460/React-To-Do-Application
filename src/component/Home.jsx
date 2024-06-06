@@ -18,12 +18,12 @@ function Home() {
   return (
     <>
       <div className="container">
-        <div className="d-flex justify-content-center m-4">
+        <div className="d-flex justify-content-center mt-4">
           <Link to="/create" className="btn btn-success my-3">
             Create +
           </Link>
         </div>
-        <table className="table">
+        <table className="table mt-4 ">
           <thead>
             <tr>
               <th>ID</th>
